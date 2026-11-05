@@ -1,0 +1,48 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "yonex-racket-astrox99pro-green-main-01",
+  "productIds": [
+    "b56be592-b713-410c-971f-ab702c850a2c"
+  ],
+  "kind": "processed-image",
+  "role": "primary",
+  "fileName": "yonex_racket_astrox99pro_green_main_01.png",
+  "legacyImageKeys": [
+    "yonex_racket_astrox99pro_green_main_01"
+  ],
+  "dimensions": {
+    "width": 210,
+    "height": 703
+  },
+  "sha256": "b9ce7d04b7aa1f7e39b9285b4d6cb69ab4274844d32c1f3fcf98773b03a574f5",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8",
+      "legacy-image-processing"
+    ],
+    "method": "existing-geometry-and-light-background-mask",
+    "derivedFrom": [
+      {
+        "fileName": "yonex_racket_astrox99pro_green_main_01.webp",
+        "sha256": "552e0a66760ce10724866c01ba3606885b1534e9ca197424c91caa63e3a02d7a",
+        "kind": "unknown-origin"
+      }
+    ]
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed."
+  ]
+}

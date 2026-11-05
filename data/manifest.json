@@ -1,0 +1,12 @@
+{
+  "$schema": "../schemas/manifest.schema.json",
+  "schemaVersion": 1,
+  "dataVersion": "0.1.0",
+  "catalogVersion": 8,
+  "updated": "2026-11-05",
+  "licenses": {
+    "code": "MIT",
+    "data": "CC-BY-4.0",
+    "media": "per-asset"
+  }
+}

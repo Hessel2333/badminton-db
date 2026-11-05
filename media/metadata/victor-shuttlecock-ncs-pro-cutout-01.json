@@ -1,0 +1,56 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "victor-shuttlecock-ncs-pro-cutout-01",
+  "productIds": [
+    "29f6fc8c-0c9c-5c30-ba4b-16e4be00b412"
+  ],
+  "kind": "generated-render",
+  "role": "primary",
+  "fileName": "victor_shuttlecock_ncs_pro_cutout_01.png",
+  "legacyImageKeys": [
+    "victor_shuttlecock_ncs_pro_cutout_01",
+    "victor_shuttlecock_ncs_pro_main_01"
+  ],
+  "dimensions": {
+    "width": 512,
+    "height": 2304
+  },
+  "sha256": "f79d2270a383d38585c745cb1fb41d1e0f3b085a1f8cece39601a09e3f86c7b5",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8",
+      "victor-cylinder-v3"
+    ],
+    "method": "shared-vector-template-orthographic-cylinder-v3",
+    "derivedFrom": [
+      {
+        "fileName": "victor_shuttlecock_ncs_pro_main_01.jpg",
+        "sha256": "29967afa7b406da92a748d55c7445068280567b61c86891693ce07480fbc0612",
+        "kind": "reported-official-reference"
+      }
+    ]
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [
+    {
+      "value": "1234567890128",
+      "format": "EAN-13",
+      "purpose": "illustrative-only"
+    }
+  ],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed.",
+    "Reconstructed packaging illustration, not a manufacturer-issued product photo."
+  ]
+}

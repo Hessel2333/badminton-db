@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "victor-racket-thruster-hammer-cutout-01",
+  "productIds": [
+    "f0fb8654-9e3a-5f19-8622-a5f62f3e8eb3"
+  ],
+  "kind": "processed-image",
+  "role": "primary",
+  "fileName": "victor_racket_thruster_hammer_cutout_01.png",
+  "legacyImageKeys": [
+    "victor_racket_thruster_hammer_cutout_01",
+    "victor_racket_thruster_hammer_main_01"
+  ],
+  "dimensions": {
+    "width": 870,
+    "height": 597
+  },
+  "sha256": "fa916e10e4e4e96a5ca278c0a23e1b12b4df96c3af709df1f1b93ff20c2fe9fb",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "method": null,
+    "derivedFrom": []
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed."
+  ]
+}

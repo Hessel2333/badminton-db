@@ -1,0 +1,65 @@
+{
+  "$schema": "../../../schemas/product.schema.json",
+  "id": "45a3e57f-91c0-5d77-a15e-7182c97b1e71",
+  "slug": "lining-tiedifeixing2max",
+  "brandId": "lining",
+  "category": "shoes",
+  "names": {
+    "zh-CN": "贴地飞行 2 MAX",
+    "en": null
+  },
+  "model": "贴地飞行2 MAX",
+  "series": null,
+  "aliases": [],
+  "variant": {
+    "label": null,
+    "generation": null,
+    "color": null
+  },
+  "specifications": {
+    "weightClass": null,
+    "gripSize": null,
+    "releaseYear": null
+  },
+  "relations": {
+    "variantOf": null
+  },
+  "mediaIds": [
+    "lining-shoes-tiedifeixing2max-cutout-01"
+  ],
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  },
+  "curation": {
+    "listed": true,
+    "tags": [
+      "包裹",
+      "启动"
+    ]
+  },
+  "priceObservations": [
+    {
+      "kind": "legacy-reference",
+      "amount": 699,
+      "currency": "CNY",
+      "region": "CN",
+      "observedAt": null,
+      "verification": "unverified",
+      "sourceIds": [
+        "legacy-catalog-v8"
+      ]
+    }
+  ],
+  "legacy": {
+    "imageKey": "lining_shoes_tiedifeixing2max_cutout_01",
+    "popularity": 92,
+    "revision": 1,
+    "createdAt": "2026-08-14T00:00:00Z",
+    "updatedAt": "2026-08-14T00:00:00Z"
+  },
+  "revision": 1
+}

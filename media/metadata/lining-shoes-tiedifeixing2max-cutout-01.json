@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "lining-shoes-tiedifeixing2max-cutout-01",
+  "productIds": [
+    "45a3e57f-91c0-5d77-a15e-7182c97b1e71"
+  ],
+  "kind": "processed-image",
+  "role": "primary",
+  "fileName": "lining_shoes_tiedifeixing2max_cutout_01.png",
+  "legacyImageKeys": [
+    "lining_shoes_tiedifeixing2max_cutout_01",
+    "lining_shoes_tiedifeixing2max_main_01"
+  ],
+  "dimensions": {
+    "width": 902,
+    "height": 538
+  },
+  "sha256": "61942c5bfa9378787d7fa76fd8084707788efa7f99380ade8f269171178d7432",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "method": null,
+    "derivedFrom": []
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed."
+  ]
+}

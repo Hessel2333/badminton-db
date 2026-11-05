@@ -1,0 +1,64 @@
+{
+  "$schema": "../../../schemas/product.schema.json",
+  "id": "fb566439-3e4c-5b19-97c8-8e598ce49c48",
+  "slug": "rsl-no7",
+  "brandId": "rsl",
+  "category": "shuttlecock",
+  "names": {
+    "zh-CN": "亚狮龙 7号",
+    "en": null
+  },
+  "model": "No.7",
+  "series": null,
+  "aliases": [],
+  "variant": {
+    "label": null,
+    "generation": null,
+    "color": null
+  },
+  "specifications": {
+    "weightClass": null,
+    "gripSize": null,
+    "releaseYear": null
+  },
+  "relations": {
+    "variantOf": null
+  },
+  "mediaIds": [
+    "rsl-shuttlecock-no7-main-01"
+  ],
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  },
+  "curation": {
+    "listed": true,
+    "tags": [
+      "口粮球"
+    ]
+  },
+  "priceObservations": [
+    {
+      "kind": "legacy-reference",
+      "amount": 105,
+      "currency": "CNY",
+      "region": "CN",
+      "observedAt": null,
+      "verification": "unverified",
+      "sourceIds": [
+        "legacy-catalog-v8"
+      ]
+    }
+  ],
+  "legacy": {
+    "imageKey": "rsl_shuttlecock_no7_main_01",
+    "popularity": 94,
+    "revision": 1,
+    "createdAt": "2026-08-14T00:00:00Z",
+    "updatedAt": "2026-08-14T00:00:00Z"
+  },
+  "revision": 1
+}

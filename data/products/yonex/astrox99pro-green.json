@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/product.schema.json",
+  "id": "b56be592-b713-410c-971f-ab702c850a2c",
+  "slug": "yonex-astrox99pro-green",
+  "brandId": "yonex",
+  "category": "racket",
+  "names": {
+    "zh-CN": "天斧 99 Pro (绿)",
+    "en": null
+  },
+  "model": "AX99 PRO GREEN",
+  "series": null,
+  "aliases": [],
+  "variant": {
+    "label": "绿",
+    "generation": null,
+    "color": null
+  },
+  "specifications": {
+    "weightClass": null,
+    "gripSize": null,
+    "releaseYear": null
+  },
+  "relations": {
+    "variantOf": null
+  },
+  "mediaIds": [
+    "yonex-racket-astrox99pro-green-main-01"
+  ],
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  },
+  "curation": {
+    "listed": true,
+    "tags": []
+  },
+  "priceObservations": [],
+  "legacy": {
+    "imageKey": "yonex_racket_astrox99pro_green_main_01",
+    "popularity": 70,
+    "revision": 1,
+    "createdAt": "2026-10-08T00:00:00Z",
+    "updatedAt": "2026-10-08T00:00:00Z"
+  },
+  "revision": 1
+}

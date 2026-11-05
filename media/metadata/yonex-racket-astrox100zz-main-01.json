@@ -1,0 +1,48 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "yonex-racket-astrox100zz-main-01",
+  "productIds": [
+    "56dd2b4f-20f6-5f78-8b5f-c86d7dd8abf2"
+  ],
+  "kind": "processed-image",
+  "role": "primary",
+  "fileName": "yonex_racket_astrox100zz_main_01.png",
+  "legacyImageKeys": [
+    "yonex_racket_astrox100zz_main_01"
+  ],
+  "dimensions": {
+    "width": 209,
+    "height": 713
+  },
+  "sha256": "793f85b1a67a8f65d5b7af14ba0c16c2c45cfb88a5cd7e929890edd09918e79e",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8",
+      "legacy-image-processing"
+    ],
+    "method": "existing-geometry-and-light-background-mask",
+    "derivedFrom": [
+      {
+        "fileName": "yonex_racket_astrox100zz_main_01.webp",
+        "sha256": "2f7f0703f0729a6dd77ae56050919bd4158ba78f6384ff6242eb9ff0a1d84b96",
+        "kind": "unknown-origin"
+      }
+    ]
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "yonex-racket-arcsaber11pro-main-01",
+  "productIds": [
+    "b3ab536b-be1b-5246-8a0d-aa1bdeddc848"
+  ],
+  "kind": "processed-image",
+  "role": "primary",
+  "fileName": "yonex_racket_arcsaber11pro_main_01.png",
+  "legacyImageKeys": [
+    "yonex_racket_arcsaber11pro_main_01"
+  ],
+  "dimensions": {
+    "width": 520,
+    "height": 1694
+  },
+  "sha256": "3b0d8235a0b8b1489c31bd87bda22cfcb81b98191c44100c4a2c665ca788d008",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "method": null,
+    "derivedFrom": []
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed."
+  ]
+}

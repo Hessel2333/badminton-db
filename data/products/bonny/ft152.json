@@ -1,0 +1,65 @@
+{
+  "$schema": "../../../schemas/product.schema.json",
+  "id": "959975d8-9e53-51c4-98e0-30376305c07e",
+  "slug": "bonny-ft152",
+  "brandId": "bonny",
+  "category": "racket",
+  "names": {
+    "zh-CN": "Bonny FT152",
+    "en": null
+  },
+  "model": "FT152",
+  "series": null,
+  "aliases": [],
+  "variant": {
+    "label": null,
+    "generation": null,
+    "color": null
+  },
+  "specifications": {
+    "weightClass": null,
+    "gripSize": null,
+    "releaseYear": null
+  },
+  "relations": {
+    "variantOf": null
+  },
+  "mediaIds": [
+    "bonny-racket-ft152-main-01"
+  ],
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  },
+  "curation": {
+    "listed": true,
+    "tags": [
+      "碳素",
+      "进攻"
+    ]
+  },
+  "priceObservations": [
+    {
+      "kind": "legacy-reference",
+      "amount": 1380,
+      "currency": "CNY",
+      "region": "CN",
+      "observedAt": null,
+      "verification": "unverified",
+      "sourceIds": [
+        "legacy-catalog-v8"
+      ]
+    }
+  ],
+  "legacy": {
+    "imageKey": "bonny_racket_ft152_main_01",
+    "popularity": 75,
+    "revision": 1,
+    "createdAt": "2026-08-14T00:00:00Z",
+    "updatedAt": "2026-08-14T00:00:00Z"
+  },
+  "revision": 1
+}

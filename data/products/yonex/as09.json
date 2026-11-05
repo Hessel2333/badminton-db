@@ -1,0 +1,55 @@
+{
+  "$schema": "../../../schemas/product.schema.json",
+  "id": "7a405285-b19c-5fda-8fd2-169342a6b5df",
+  "slug": "yonex-as09",
+  "brandId": "yonex",
+  "category": "shuttlecock",
+  "names": {
+    "zh-CN": "YONEX AS-9",
+    "en": "AEROSENSA 9"
+  },
+  "model": "AS-9",
+  "series": "AEROSENSA",
+  "aliases": [
+    "AS-09",
+    "AEROSENSA 09"
+  ],
+  "variant": {
+    "label": null,
+    "generation": null,
+    "color": null
+  },
+  "specifications": {
+    "weightClass": null,
+    "gripSize": null,
+    "releaseYear": null
+  },
+  "relations": {
+    "variantOf": null
+  },
+  "mediaIds": [
+    "yonex-shuttlecock-as09-cutout-01"
+  ],
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  },
+  "curation": {
+    "listed": true,
+    "tags": [
+      "AEROSENSA"
+    ]
+  },
+  "priceObservations": [],
+  "legacy": {
+    "imageKey": "yonex_shuttlecock_as09_cutout_01",
+    "popularity": 70,
+    "revision": 1,
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z"
+  },
+  "revision": 1
+}

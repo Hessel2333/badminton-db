@@ -1,0 +1,56 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "victor-shuttlecock-gold-no1-cutout-01",
+  "productIds": [
+    "d4c4d4e7-a562-5508-ad69-730d35240efa"
+  ],
+  "kind": "generated-render",
+  "role": "primary",
+  "fileName": "victor_shuttlecock_gold_no1_cutout_01.png",
+  "legacyImageKeys": [
+    "victor_shuttlecock_gold_no1_cutout_01",
+    "victor_shuttlecock_gold_no1_main_01"
+  ],
+  "dimensions": {
+    "width": 512,
+    "height": 2304
+  },
+  "sha256": "9331596efde2c6723b477e7d386e9074f803a864bc056198f582196320f40faf",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8",
+      "victor-cylinder-v3"
+    ],
+    "method": "shared-vector-template-orthographic-cylinder-v3",
+    "derivedFrom": [
+      {
+        "fileName": "victor_shuttlecock_gold_no1_main_01.jpg",
+        "sha256": "00dca9b553d5c4c9742bf83e0b3d839968108a31d91268bcbd9b6732aa103aac",
+        "kind": "reported-official-reference"
+      }
+    ]
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [
+    {
+      "value": "1234567890128",
+      "format": "EAN-13",
+      "purpose": "illustrative-only"
+    }
+  ],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed.",
+    "Reconstructed packaging illustration, not a manufacturer-issued product photo."
+  ]
+}

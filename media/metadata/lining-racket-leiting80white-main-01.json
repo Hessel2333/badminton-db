@@ -1,0 +1,41 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "lining-racket-leiting80white-main-01",
+  "productIds": [
+    "960ea51b-4c24-5f8b-bdf7-d18564016a67"
+  ],
+  "kind": "processed-image",
+  "role": "primary",
+  "fileName": "lining_racket_leiting80white_main_01.png",
+  "legacyImageKeys": [
+    "lining_racket_leiting80white_main_01"
+  ],
+  "dimensions": {
+    "width": 1225,
+    "height": 1210
+  },
+  "sha256": "abfc9af4316f1208287292c283fe3249a154435996cc061284365adf8a0188c3",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "method": null,
+    "derivedFrom": []
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed."
+  ]
+}

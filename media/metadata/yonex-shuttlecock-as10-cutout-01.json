@@ -1,0 +1,49 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "yonex-shuttlecock-as10-cutout-01",
+  "productIds": [
+    "e35107dd-ba44-507f-95fd-93b727d2aaf8"
+  ],
+  "kind": "processed-image",
+  "role": "primary",
+  "fileName": "yonex_shuttlecock_as10_cutout_01.png",
+  "legacyImageKeys": [
+    "yonex_shuttlecock_as10_cutout_01",
+    "yonex_shuttlecock_as10_main_01"
+  ],
+  "dimensions": {
+    "width": 259,
+    "height": 1402
+  },
+  "sha256": "32b8f63e308b33b3c9fd384c7746314c1e568c263c437f58718220fc11435d87",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8",
+      "yonex-as-cutouts-2026-11-05"
+    ],
+    "method": "image_gen-transparent-background-extraction",
+    "derivedFrom": [
+      {
+        "fileName": "yonex_shuttlecock_as10_main_01.webp",
+        "sha256": "2ca61537ab8f3267931ab59123e39278c3669f3ce894a33cda729f184d3792a1",
+        "kind": "unknown-origin"
+      }
+    ]
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed."
+  ]
+}

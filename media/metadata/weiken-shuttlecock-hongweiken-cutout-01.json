@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "weiken-shuttlecock-hongweiken-cutout-01",
+  "productIds": [
+    "93245aac-9449-526d-9042-a0ea074ace6d"
+  ],
+  "kind": "processed-image",
+  "role": "primary",
+  "fileName": "weiken_shuttlecock_hongweiken_cutout_01.png",
+  "legacyImageKeys": [
+    "weiken_shuttlecock_hongweiken_cutout_01",
+    "weiken_shuttlecock_hongweiken_main_01"
+  ],
+  "dimensions": {
+    "width": 97,
+    "height": 497
+  },
+  "sha256": "9ace44e02a4ab54946ba370c8d4945cfa98ec5f9b04638df816e0497cbbf7915",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "method": null,
+    "derivedFrom": []
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed."
+  ]
+}

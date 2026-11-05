@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/product.schema.json",
+  "id": "29f6fc8c-0c9c-5c30-ba4b-16e4be00b412",
+  "slug": "victor-ncs-pro",
+  "brandId": "victor",
+  "category": "shuttlecock",
+  "names": {
+    "zh-CN": "新碳音 NCS Pro",
+    "en": "NCS Pro"
+  },
+  "model": "NCS Pro",
+  "series": "NEW CARBONSONIC",
+  "aliases": [],
+  "variant": {
+    "label": null,
+    "generation": null,
+    "color": null
+  },
+  "specifications": {
+    "weightClass": null,
+    "gripSize": null,
+    "releaseYear": null
+  },
+  "relations": {
+    "variantOf": null
+  },
+  "mediaIds": [
+    "victor-shuttlecock-ncs-pro-cutout-01"
+  ],
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  },
+  "curation": {
+    "listed": true,
+    "tags": []
+  },
+  "priceObservations": [],
+  "legacy": {
+    "imageKey": "victor_shuttlecock_ncs_pro_cutout_01",
+    "popularity": 0,
+    "revision": 1,
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z"
+  },
+  "revision": 1
+}

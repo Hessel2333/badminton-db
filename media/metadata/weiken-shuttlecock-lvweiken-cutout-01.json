@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "weiken-shuttlecock-lvweiken-cutout-01",
+  "productIds": [
+    "537edc8d-18fc-527e-833e-354aaa4c37fa"
+  ],
+  "kind": "processed-image",
+  "role": "primary",
+  "fileName": "weiken_shuttlecock_lvweiken_cutout_01.png",
+  "legacyImageKeys": [
+    "weiken_shuttlecock_lvweiken_cutout_01",
+    "weiken_shuttlecock_lvweiken_main_01"
+  ],
+  "dimensions": {
+    "width": 93,
+    "height": 474
+  },
+  "sha256": "9017e0fde1641efb8699020abd58c30047f10c7b32f1ed67719545a40cb6ca35",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "method": null,
+    "derivedFrom": []
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed."
+  ]
+}

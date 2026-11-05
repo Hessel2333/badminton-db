@@ -1,0 +1,64 @@
+{
+  "$schema": "../../../schemas/product.schema.json",
+  "id": "ef44ee6b-53e3-5d44-8c72-55b20b1edc05",
+  "slug": "chao-huangchao",
+  "brandId": "chao",
+  "category": "shuttlecock",
+  "names": {
+    "zh-CN": "黄超羽毛球",
+    "en": null
+  },
+  "model": "黄超",
+  "series": null,
+  "aliases": [],
+  "variant": {
+    "label": null,
+    "generation": null,
+    "color": null
+  },
+  "specifications": {
+    "weightClass": null,
+    "gripSize": null,
+    "releaseYear": null
+  },
+  "relations": {
+    "variantOf": null
+  },
+  "mediaIds": [
+    "chao-shuttlecock-huangchao-cutout-01"
+  ],
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  },
+  "curation": {
+    "listed": true,
+    "tags": [
+      "训练"
+    ]
+  },
+  "priceObservations": [
+    {
+      "kind": "legacy-reference",
+      "amount": 95,
+      "currency": "CNY",
+      "region": "CN",
+      "observedAt": null,
+      "verification": "unverified",
+      "sourceIds": [
+        "legacy-catalog-v8"
+      ]
+    }
+  ],
+  "legacy": {
+    "imageKey": "chao_shuttlecock_huangchao_cutout_01",
+    "popularity": 86,
+    "revision": 1,
+    "createdAt": "2026-08-14T00:00:00Z",
+    "updatedAt": "2026-08-14T00:00:00Z"
+  },
+  "revision": 1
+}

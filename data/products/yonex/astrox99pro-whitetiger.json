@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/product.schema.json",
+  "id": "b4f9e9dc-56a8-46e0-af55-1190c33a9c57",
+  "slug": "yonex-astrox99pro-whitetiger",
+  "brandId": "yonex",
+  "category": "racket",
+  "names": {
+    "zh-CN": "天斧 99 Pro (白虎)",
+    "en": null
+  },
+  "model": "AX99 PRO WHITE TIGER",
+  "series": null,
+  "aliases": [],
+  "variant": {
+    "label": "白虎",
+    "generation": null,
+    "color": null
+  },
+  "specifications": {
+    "weightClass": null,
+    "gripSize": null,
+    "releaseYear": null
+  },
+  "relations": {
+    "variantOf": null
+  },
+  "mediaIds": [
+    "yonex-racket-astrox99pro-whitetiger-main-01"
+  ],
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  },
+  "curation": {
+    "listed": true,
+    "tags": []
+  },
+  "priceObservations": [],
+  "legacy": {
+    "imageKey": "yonex_racket_astrox99pro_whitetiger_main_01",
+    "popularity": 70,
+    "revision": 1,
+    "createdAt": "2026-10-08T00:00:00Z",
+    "updatedAt": "2026-10-08T00:00:00Z"
+  },
+  "revision": 1
+}

@@ -1,0 +1,70 @@
+{
+  "$schema": "../../../schemas/product.schema.json",
+  "id": "30c91339-c606-5c33-884f-53a3e877a890",
+  "slug": "yonex-astrox88dpro",
+  "brandId": "yonex",
+  "category": "racket",
+  "names": {
+    "zh-CN": "天斧 88D Pro",
+    "en": "ASTROX 88D PRO"
+  },
+  "model": "AX88D PRO",
+  "series": "ASTROX",
+  "aliases": [
+    "88dpro",
+    "天斧88dpro",
+    "YONEX ASTROX 88D PRO"
+  ],
+  "variant": {
+    "label": null,
+    "generation": null,
+    "color": null
+  },
+  "specifications": {
+    "weightClass": null,
+    "gripSize": null,
+    "releaseYear": null
+  },
+  "relations": {
+    "variantOf": null
+  },
+  "mediaIds": [
+    "yonex-racket-astrox88dpro-main-01"
+  ],
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  },
+  "curation": {
+    "listed": true,
+    "tags": [
+      "ASTROX",
+      "双打后场",
+      "进攻"
+    ]
+  },
+  "priceObservations": [
+    {
+      "kind": "legacy-reference",
+      "amount": 1599,
+      "currency": "CNY",
+      "region": "CN",
+      "observedAt": null,
+      "verification": "unverified",
+      "sourceIds": [
+        "legacy-catalog-v8"
+      ]
+    }
+  ],
+  "legacy": {
+    "imageKey": "yonex_racket_astrox88dpro_main_01",
+    "popularity": 94,
+    "revision": 2,
+    "createdAt": "2026-09-01T00:00:00Z",
+    "updatedAt": "2026-09-01T00:00:00Z"
+  },
+  "revision": 1
+}

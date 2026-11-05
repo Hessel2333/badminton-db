@@ -1,0 +1,64 @@
+{
+  "$schema": "../../../schemas/product.schema.json",
+  "id": "960ea51b-4c24-5f8b-bdf7-d18564016a67",
+  "slug": "lining-leiting80white",
+  "brandId": "lining",
+  "category": "racket",
+  "names": {
+    "zh-CN": "李宁 雷霆 80 (白)",
+    "en": null
+  },
+  "model": "AYPV035-4",
+  "series": null,
+  "aliases": [],
+  "variant": {
+    "label": null,
+    "generation": null,
+    "color": null
+  },
+  "specifications": {
+    "weightClass": null,
+    "gripSize": null,
+    "releaseYear": null
+  },
+  "relations": {
+    "variantOf": null
+  },
+  "mediaIds": [
+    "lining-racket-leiting80white-main-01"
+  ],
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  },
+  "curation": {
+    "listed": true,
+    "tags": [
+      "进攻"
+    ]
+  },
+  "priceObservations": [
+    {
+      "kind": "legacy-reference",
+      "amount": 1399,
+      "currency": "CNY",
+      "region": "CN",
+      "observedAt": null,
+      "verification": "unverified",
+      "sourceIds": [
+        "legacy-catalog-v8"
+      ]
+    }
+  ],
+  "legacy": {
+    "imageKey": "lining_racket_leiting80white_main_01",
+    "popularity": 91,
+    "revision": 1,
+    "createdAt": "2026-08-14T00:00:00Z",
+    "updatedAt": "2026-08-14T00:00:00Z"
+  },
+  "revision": 1
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/brand.schema.json",
+  "id": "rsl",
+  "name": "RSL",
+  "aliases": [
+    "亚狮龙",
+    "亞獅龍"
+  ],
+  "website": null,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  }
+}

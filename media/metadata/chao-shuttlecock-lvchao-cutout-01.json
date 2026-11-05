@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "chao-shuttlecock-lvchao-cutout-01",
+  "productIds": [
+    "52250d0e-6bde-561c-a1d0-f06cb2978a4d"
+  ],
+  "kind": "processed-image",
+  "role": "primary",
+  "fileName": "chao_shuttlecock_lvchao_cutout_01.png",
+  "legacyImageKeys": [
+    "chao_shuttlecock_lvchao_cutout_01",
+    "chao_shuttlecock_lvchao_main_01"
+  ],
+  "dimensions": {
+    "width": 177,
+    "height": 910
+  },
+  "sha256": "b4fc6ed18d795b6cde8a7f872a4449d295f9161e260e3d49cf067f52ea98a2c5",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "method": null,
+    "derivedFrom": []
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed."
+  ]
+}

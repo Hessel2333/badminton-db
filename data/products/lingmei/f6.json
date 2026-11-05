@@ -1,0 +1,64 @@
+{
+  "$schema": "../../../schemas/product.schema.json",
+  "id": "9f8fa458-e3dc-5fc6-a755-979a0a08c323",
+  "slug": "lingmei-f6",
+  "brandId": "lingmei",
+  "category": "shuttlecock",
+  "names": {
+    "zh-CN": "翎美 F6",
+    "en": null
+  },
+  "model": "F6",
+  "series": null,
+  "aliases": [],
+  "variant": {
+    "label": null,
+    "generation": null,
+    "color": null
+  },
+  "specifications": {
+    "weightClass": null,
+    "gripSize": null,
+    "releaseYear": null
+  },
+  "relations": {
+    "variantOf": null
+  },
+  "mediaIds": [
+    "lingmei-shuttlecock-f6-cutout-01"
+  ],
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  },
+  "curation": {
+    "listed": true,
+    "tags": [
+      "口粮球"
+    ]
+  },
+  "priceObservations": [
+    {
+      "kind": "legacy-reference",
+      "amount": 88,
+      "currency": "CNY",
+      "region": "CN",
+      "observedAt": null,
+      "verification": "unverified",
+      "sourceIds": [
+        "legacy-catalog-v8"
+      ]
+    }
+  ],
+  "legacy": {
+    "imageKey": "lingmei_shuttlecock_f6_cutout_01",
+    "popularity": 67,
+    "revision": 1,
+    "createdAt": "2026-08-14T00:00:00Z",
+    "updatedAt": "2026-08-14T00:00:00Z"
+  },
+  "revision": 1
+}

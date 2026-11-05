@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "weiken-shuttlecock-lanweiken-cutout-01",
+  "productIds": [
+    "e5e7eab8-2b91-505f-b92f-16555b86f5ee"
+  ],
+  "kind": "processed-image",
+  "role": "primary",
+  "fileName": "weiken_shuttlecock_lanweiken_cutout_01.png",
+  "legacyImageKeys": [
+    "weiken_shuttlecock_lanweiken_cutout_01",
+    "weiken_shuttlecock_lanweiken_main_01"
+  ],
+  "dimensions": {
+    "width": 97,
+    "height": 504
+  },
+  "sha256": "a31f9e17ae419410550edda4a0dddea19f8331cb77bbf9229b9693519fef9f36",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "method": null,
+    "derivedFrom": []
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed."
+  ]
+}

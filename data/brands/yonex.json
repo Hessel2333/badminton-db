@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/brand.schema.json",
+  "id": "yonex",
+  "name": "YONEX",
+  "aliases": [
+    "尤尼克斯",
+    "YY"
+  ],
+  "website": null,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  }
+}

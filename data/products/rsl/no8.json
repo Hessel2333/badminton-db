@@ -1,0 +1,64 @@
+{
+  "$schema": "../../../schemas/product.schema.json",
+  "id": "e34619e8-be78-50e2-8f49-10e390f30d0c",
+  "slug": "rsl-no8",
+  "brandId": "rsl",
+  "category": "shuttlecock",
+  "names": {
+    "zh-CN": "亚狮龙 8号",
+    "en": null
+  },
+  "model": "No.8",
+  "series": null,
+  "aliases": [],
+  "variant": {
+    "label": null,
+    "generation": null,
+    "color": null
+  },
+  "specifications": {
+    "weightClass": null,
+    "gripSize": null,
+    "releaseYear": null
+  },
+  "relations": {
+    "variantOf": null
+  },
+  "mediaIds": [
+    "rsl-shuttlecock-no8-main-01"
+  ],
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  },
+  "curation": {
+    "listed": true,
+    "tags": [
+      "日常"
+    ]
+  },
+  "priceObservations": [
+    {
+      "kind": "legacy-reference",
+      "amount": 98,
+      "currency": "CNY",
+      "region": "CN",
+      "observedAt": null,
+      "verification": "unverified",
+      "sourceIds": [
+        "legacy-catalog-v8"
+      ]
+    }
+  ],
+  "legacy": {
+    "imageKey": "rsl_shuttlecock_no8_main_01",
+    "popularity": 79,
+    "revision": 1,
+    "createdAt": "2026-08-14T00:00:00Z",
+    "updatedAt": "2026-08-14T00:00:00Z"
+  },
+  "revision": 1
+}

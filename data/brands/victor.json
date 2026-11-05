@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/brand.schema.json",
+  "id": "victor",
+  "name": "VICTOR",
+  "aliases": [
+    "胜利",
+    "威克多"
+  ],
+  "website": null,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  }
+}

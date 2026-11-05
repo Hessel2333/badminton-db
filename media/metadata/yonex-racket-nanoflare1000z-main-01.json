@@ -1,0 +1,48 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "yonex-racket-nanoflare1000z-main-01",
+  "productIds": [
+    "d481e92e-034c-4744-a23a-52218628458b"
+  ],
+  "kind": "processed-image",
+  "role": "primary",
+  "fileName": "yonex_racket_nanoflare1000z_main_01.png",
+  "legacyImageKeys": [
+    "yonex_racket_nanoflare1000z_main_01"
+  ],
+  "dimensions": {
+    "width": 233,
+    "height": 791
+  },
+  "sha256": "394d828a2e3d345c26e5e08afe0417f52f590e1a5c3706a7b7a30e606c6b6c03",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8",
+      "legacy-image-processing"
+    ],
+    "method": "existing-geometry-and-light-background-mask",
+    "derivedFrom": [
+      {
+        "fileName": "yonex_racket_nanoflare1000z_main_01.webp",
+        "sha256": "53250ed2dd735a1b346c980bb0ba36c89fd2142c2b65bc79378a2e7f34039177",
+        "kind": "unknown-origin"
+      }
+    ]
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed."
+  ]
+}

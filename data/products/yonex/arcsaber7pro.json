@@ -1,0 +1,69 @@
+{
+  "$schema": "../../../schemas/product.schema.json",
+  "id": "ae60015e-f5cb-54a9-a721-3301d7c5fdce",
+  "slug": "yonex-arcsaber7pro",
+  "brandId": "yonex",
+  "category": "racket",
+  "names": {
+    "zh-CN": "弓箭 7 Pro",
+    "en": "ARCSABER 7 PRO"
+  },
+  "model": "ARC7 PRO",
+  "series": null,
+  "aliases": [
+    "弓7pro",
+    "弓箭7pro",
+    "YONEX ARCSABER 7 PRO"
+  ],
+  "variant": {
+    "label": null,
+    "generation": null,
+    "color": null
+  },
+  "specifications": {
+    "weightClass": null,
+    "gripSize": null,
+    "releaseYear": null
+  },
+  "relations": {
+    "variantOf": null
+  },
+  "mediaIds": [
+    "yonex-racket-arcsaber7pro-main-01"
+  ],
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  },
+  "curation": {
+    "listed": true,
+    "tags": [
+      "ARCSABER",
+      "均衡"
+    ]
+  },
+  "priceObservations": [
+    {
+      "kind": "legacy-reference",
+      "amount": 1499,
+      "currency": "CNY",
+      "region": "CN",
+      "observedAt": null,
+      "verification": "unverified",
+      "sourceIds": [
+        "legacy-catalog-v8"
+      ]
+    }
+  ],
+  "legacy": {
+    "imageKey": "yonex_racket_arcsaber7pro_main_01",
+    "popularity": 86,
+    "revision": 1,
+    "createdAt": "2026-08-14T00:00:00Z",
+    "updatedAt": "2026-08-14T00:00:00Z"
+  },
+  "revision": 1
+}

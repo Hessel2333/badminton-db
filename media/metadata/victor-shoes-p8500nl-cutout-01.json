@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "victor-shoes-p8500nl-cutout-01",
+  "productIds": [
+    "a9738478-0b08-51ea-979d-08b1720fe0ec"
+  ],
+  "kind": "processed-image",
+  "role": "primary",
+  "fileName": "victor_shoes_p8500nl_cutout_01.png",
+  "legacyImageKeys": [
+    "victor_shoes_p8500nl_cutout_01",
+    "victor_shoes_p8500nl_main_01"
+  ],
+  "dimensions": {
+    "width": 763,
+    "height": 381
+  },
+  "sha256": "9c2368db7dc43da67bc51511def484e8255277b8d1d8dbe1b2b51eec4f774474",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "method": null,
+    "derivedFrom": []
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed."
+  ]
+}

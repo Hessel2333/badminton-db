@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "weiken-shuttlecock-jinweiken-cutout-01",
+  "productIds": [
+    "a66279bf-c7b2-5db1-bd70-6ecd319ed58c"
+  ],
+  "kind": "processed-image",
+  "role": "primary",
+  "fileName": "weiken_shuttlecock_jinweiken_cutout_01.png",
+  "legacyImageKeys": [
+    "weiken_shuttlecock_jinweiken_cutout_01",
+    "weiken_shuttlecock_jinweiken_main_01"
+  ],
+  "dimensions": {
+    "width": 146,
+    "height": 766
+  },
+  "sha256": "21e5511e636370122d59e429c01967459f7f193953ce92ac5847d220eaa63dd5",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "method": null,
+    "derivedFrom": []
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed."
+  ]
+}

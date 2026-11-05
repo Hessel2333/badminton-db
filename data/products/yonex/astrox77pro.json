@@ -1,0 +1,68 @@
+{
+  "$schema": "../../../schemas/product.schema.json",
+  "id": "8480946c-fde1-55da-9b3c-d2f076b60e7f",
+  "slug": "yonex-astrox77pro",
+  "brandId": "yonex",
+  "category": "racket",
+  "names": {
+    "zh-CN": "天斧 77 Pro",
+    "en": "ASTROX 77 PRO"
+  },
+  "model": "AX77 PRO",
+  "series": null,
+  "aliases": [
+    "77pro",
+    "天斧77pro",
+    "YONEX ASTROX 77 PRO"
+  ],
+  "variant": {
+    "label": null,
+    "generation": null,
+    "color": null
+  },
+  "specifications": {
+    "weightClass": null,
+    "gripSize": null,
+    "releaseYear": null
+  },
+  "relations": {
+    "variantOf": null
+  },
+  "mediaIds": [
+    "yonex-racket-astrox77pro-main-01"
+  ],
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  },
+  "curation": {
+    "listed": true,
+    "tags": [
+      "全能"
+    ]
+  },
+  "priceObservations": [
+    {
+      "kind": "legacy-reference",
+      "amount": 1499,
+      "currency": "CNY",
+      "region": "CN",
+      "observedAt": null,
+      "verification": "unverified",
+      "sourceIds": [
+        "legacy-catalog-v8"
+      ]
+    }
+  ],
+  "legacy": {
+    "imageKey": "yonex_racket_astrox77pro_main_01",
+    "popularity": 90,
+    "revision": 2,
+    "createdAt": "2026-08-14T00:00:00Z",
+    "updatedAt": "2026-08-14T00:00:00Z"
+  },
+  "revision": 1
+}

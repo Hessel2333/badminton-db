@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "victor-cylinder-v3",
+  "title": "VICTOR cylindrical packaging reconstruction, revision 3",
+  "type": "processing-record",
+  "url": null,
+  "retrievedAt": "2026-11-05",
+  "verification": "unverified",
+  "notes": "User-provided manufacturer-reference photos informed a generated paper/light master and fixed vector artwork. Graphics use front-half cylindrical projection. Red approval stickers were removed. Barcode 1234567890128 is illustrative. Redistribution permission for third-party artwork is not established.",
+  "snapshotSha256": null
+}

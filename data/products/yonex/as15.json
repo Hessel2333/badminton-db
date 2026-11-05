@@ -1,0 +1,52 @@
+{
+  "$schema": "../../../schemas/product.schema.json",
+  "id": "21b1c091-3c11-54a8-bf26-5b0eac9c3e8d",
+  "slug": "yonex-as15",
+  "brandId": "yonex",
+  "category": "shuttlecock",
+  "names": {
+    "zh-CN": "YONEX AS-15",
+    "en": "AEROSENSA 15"
+  },
+  "model": "AS-15",
+  "series": "AEROSENSA",
+  "aliases": [],
+  "variant": {
+    "label": null,
+    "generation": null,
+    "color": null
+  },
+  "specifications": {
+    "weightClass": null,
+    "gripSize": null,
+    "releaseYear": null
+  },
+  "relations": {
+    "variantOf": null
+  },
+  "mediaIds": [
+    "yonex-shuttlecock-as15-cutout-01"
+  ],
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  },
+  "curation": {
+    "listed": true,
+    "tags": [
+      "AEROSENSA"
+    ]
+  },
+  "priceObservations": [],
+  "legacy": {
+    "imageKey": "yonex_shuttlecock_as15_cutout_01",
+    "popularity": 70,
+    "revision": 1,
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z"
+  },
+  "revision": 1
+}

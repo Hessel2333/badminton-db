@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "victor-shoes-p9200tty-cutout-01",
+  "productIds": [
+    "ae802c7f-9f87-539d-b725-8c6ea01aef72"
+  ],
+  "kind": "processed-image",
+  "role": "primary",
+  "fileName": "victor_shoes_p9200tty_cutout_01.png",
+  "legacyImageKeys": [
+    "victor_shoes_p9200tty_cutout_01",
+    "victor_shoes_p9200tty_main_01"
+  ],
+  "dimensions": {
+    "width": 866,
+    "height": 419
+  },
+  "sha256": "3005df6a1d6c1c103ceb12713e8e541c3839101b1053ef849c3145bf6305a5f7",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "method": null,
+    "derivedFrom": []
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed."
+  ]
+}

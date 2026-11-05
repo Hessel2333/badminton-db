@@ -1,0 +1,41 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "yonex-racket-astrox77pro-main-01",
+  "productIds": [
+    "8480946c-fde1-55da-9b3c-d2f076b60e7f"
+  ],
+  "kind": "processed-image",
+  "role": "primary",
+  "fileName": "yonex_racket_astrox77pro_main_01.png",
+  "legacyImageKeys": [
+    "yonex_racket_astrox77pro_main_01"
+  ],
+  "dimensions": {
+    "width": 493,
+    "height": 1631
+  },
+  "sha256": "b014bbb9312f0ff96a01223f4e92d2e5ebac84b6b2feb6533dd1302cfa631125",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "method": null,
+    "derivedFrom": []
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed."
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/product.schema.json",
+  "id": "d98cb25b-6ef9-4d6c-804d-bffc21c35402",
+  "slug": "lining-zhanji9000power",
+  "brandId": "lining",
+  "category": "racket",
+  "names": {
+    "zh-CN": "战戟 9000 Power",
+    "en": null
+  },
+  "model": "战戟9000 Power",
+  "series": null,
+  "aliases": [],
+  "variant": {
+    "label": null,
+    "generation": null,
+    "color": null
+  },
+  "specifications": {
+    "weightClass": null,
+    "gripSize": null,
+    "releaseYear": null
+  },
+  "relations": {
+    "variantOf": null
+  },
+  "mediaIds": [
+    "lining-racket-zhanji9000power-main-01"
+  ],
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  },
+  "curation": {
+    "listed": true,
+    "tags": []
+  },
+  "priceObservations": [],
+  "legacy": {
+    "imageKey": "lining_racket_zhanji9000power_main_01",
+    "popularity": 70,
+    "revision": 1,
+    "createdAt": "2026-10-08T00:00:00Z",
+    "updatedAt": "2026-10-08T00:00:00Z"
+  },
+  "revision": 1
+}

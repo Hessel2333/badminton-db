@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/product.schema.json",
+  "id": "19eb230b-d9ca-5029-9fee-19a8e4bfbd9c",
+  "slug": "victor-master-no3",
+  "brandId": "victor",
+  "category": "shuttlecock",
+  "names": {
+    "zh-CN": "蓝超 3号",
+    "en": "MASTER NO.3"
+  },
+  "model": "MASTER NO.3",
+  "series": "MASTER",
+  "aliases": [],
+  "variant": {
+    "label": null,
+    "generation": null,
+    "color": null
+  },
+  "specifications": {
+    "weightClass": null,
+    "gripSize": null,
+    "releaseYear": null
+  },
+  "relations": {
+    "variantOf": null
+  },
+  "mediaIds": [
+    "victor-shuttlecock-master-no3-cutout-01"
+  ],
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  },
+  "curation": {
+    "listed": true,
+    "tags": []
+  },
+  "priceObservations": [],
+  "legacy": {
+    "imageKey": "victor_shuttlecock_master_no3_cutout_01",
+    "popularity": 0,
+    "revision": 1,
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z"
+  },
+  "revision": 1
+}

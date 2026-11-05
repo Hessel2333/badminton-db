@@ -1,0 +1,53 @@
+{
+  "$schema": "../../../schemas/product.schema.json",
+  "id": "5ae7500d-abf6-40ec-a7b4-9f495938517c",
+  "slug": "yonex-nanoflare800pro",
+  "brandId": "yonex",
+  "category": "racket",
+  "names": {
+    "zh-CN": "疾光 800 Pro",
+    "en": "NANOFLARE 800 Pro"
+  },
+  "model": "NF800 PRO",
+  "series": "NANOFLARE",
+  "aliases": [
+    "NANOFLARE 800 Pro",
+    "YONEX NANOFLARE 800 Pro"
+  ],
+  "variant": {
+    "label": null,
+    "generation": null,
+    "color": null
+  },
+  "specifications": {
+    "weightClass": null,
+    "gripSize": null,
+    "releaseYear": null
+  },
+  "relations": {
+    "variantOf": null
+  },
+  "mediaIds": [
+    "yonex-racket-nanoflare800pro-main-01"
+  ],
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  },
+  "curation": {
+    "listed": true,
+    "tags": []
+  },
+  "priceObservations": [],
+  "legacy": {
+    "imageKey": "yonex_racket_nanoflare800pro_main_01",
+    "popularity": 70,
+    "revision": 2,
+    "createdAt": "2026-10-08T00:00:00Z",
+    "updatedAt": "2026-10-19T00:00:00Z"
+  },
+  "revision": 1
+}

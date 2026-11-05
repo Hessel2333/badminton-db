@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "weiken-shuttlecock-heiweiken-cutout-01",
+  "productIds": [
+    "8ffbc8ad-cc93-5aaf-8ff1-8056034d8267"
+  ],
+  "kind": "processed-image",
+  "role": "primary",
+  "fileName": "weiken_shuttlecock_heiweiken_cutout_01.png",
+  "legacyImageKeys": [
+    "weiken_shuttlecock_heiweiken_cutout_01",
+    "weiken_shuttlecock_heiweiken_main_01"
+  ],
+  "dimensions": {
+    "width": 98,
+    "height": 501
+  },
+  "sha256": "b4de59609eb986b04704177735c094c93a821e2b10353f133cc0cbe53d811e14",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "method": null,
+    "derivedFrom": []
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed."
+  ]
+}

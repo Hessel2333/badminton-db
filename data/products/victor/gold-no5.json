@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/product.schema.json",
+  "id": "0ad8bac3-46e0-5067-bc72-a5a027a4ada7",
+  "slug": "victor-gold-no5",
+  "brandId": "victor",
+  "category": "shuttlecock",
+  "names": {
+    "zh-CN": "金黄 5号",
+    "en": "GOLD NO.5"
+  },
+  "model": "GOLD NO.5",
+  "series": "GOLD",
+  "aliases": [],
+  "variant": {
+    "label": null,
+    "generation": null,
+    "color": null
+  },
+  "specifications": {
+    "weightClass": null,
+    "gripSize": null,
+    "releaseYear": null
+  },
+  "relations": {
+    "variantOf": null
+  },
+  "mediaIds": [
+    "victor-shuttlecock-gold-no5-cutout-01"
+  ],
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  },
+  "curation": {
+    "listed": true,
+    "tags": []
+  },
+  "priceObservations": [],
+  "legacy": {
+    "imageKey": "victor_shuttlecock_gold_no5_cutout_01",
+    "popularity": 0,
+    "revision": 1,
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z"
+  },
+  "revision": 1
+}

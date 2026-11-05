@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hessel2333.github.io/badminton-db/schemas/source.schema.json",
+  "title": "BadmintonDB source",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "type": {
+      "enum": [
+        "curated-import",
+        "processing-record",
+        "manufacturer",
+        "retailer",
+        "contributor"
+      ]
+    },
+    "url": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https?://"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "retrievedAt": {
+      "type": "string",
+      "format": "date"
+    },
+    "verification": {
+      "enum": [
+        "unverified",
+        "verified"
+      ]
+    },
+    "notes": {
+      "type": "string",
+      "minLength": 1
+    },
+    "snapshotSha256": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "type",
+    "url",
+    "retrievedAt",
+    "verification",
+    "notes",
+    "snapshotSha256"
+  ],
+  "additionalProperties": false
+}

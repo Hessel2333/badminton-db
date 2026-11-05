@@ -1,0 +1,48 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "yonex-shuttlecock-as05-main-01",
+  "productIds": [
+    "18b57912-6199-5480-ad8e-0988adceef31"
+  ],
+  "kind": "processed-image",
+  "role": "primary",
+  "fileName": "yonex_shuttlecock_as05_main_01.png",
+  "legacyImageKeys": [
+    "yonex_shuttlecock_as05_main_01"
+  ],
+  "dimensions": {
+    "width": 117,
+    "height": 688
+  },
+  "sha256": "5b7309b1efc0d5a6ff2f03b1ebdd7557a2e00c6acf0e91a7262bcd35d5d8bcde",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8",
+      "legacy-image-processing"
+    ],
+    "method": "existing-geometry-and-light-background-mask",
+    "derivedFrom": [
+      {
+        "fileName": "yonex_shuttlecock_as05_main_01.jpg",
+        "sha256": "4e69fcbe49d7528a1b9309742d488772d72c297e38b1abcd0b6219210e08f38f",
+        "kind": "unknown-origin"
+      }
+    ]
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/brand.schema.json",
+  "id": "bonny",
+  "name": "Bonny",
+  "aliases": [
+    "波力"
+  ],
+  "website": null,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "bonny-racket-ft152-main-01",
+  "productIds": [
+    "959975d8-9e53-51c4-98e0-30376305c07e"
+  ],
+  "kind": "processed-image",
+  "role": "primary",
+  "fileName": "bonny_racket_ft152_main_01.png",
+  "legacyImageKeys": [
+    "bonny_racket_ft152_main_01"
+  ],
+  "dimensions": {
+    "width": 669,
+    "height": 2202
+  },
+  "sha256": "00a225f55585ff5d30b66cc1e9f556a71bb1bf73b8de4c80963c6857e85fb517",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "method": null,
+    "derivedFrom": []
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed."
+  ]
+}

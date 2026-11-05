@@ -1,0 +1,65 @@
+{
+  "$schema": "../../../schemas/product.schema.json",
+  "id": "18b57912-6199-5480-ad8e-0988adceef31",
+  "slug": "yonex-as05",
+  "brandId": "yonex",
+  "category": "shuttlecock",
+  "names": {
+    "zh-CN": "YONEX AS-05",
+    "en": null
+  },
+  "model": "AS-05",
+  "series": null,
+  "aliases": [],
+  "variant": {
+    "label": null,
+    "generation": null,
+    "color": null
+  },
+  "specifications": {
+    "weightClass": null,
+    "gripSize": null,
+    "releaseYear": null
+  },
+  "relations": {
+    "variantOf": null
+  },
+  "mediaIds": [
+    "yonex-shuttlecock-as05-main-01"
+  ],
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  },
+  "curation": {
+    "listed": true,
+    "tags": [
+      "训练",
+      "耐打"
+    ]
+  },
+  "priceObservations": [
+    {
+      "kind": "legacy-reference",
+      "amount": 155,
+      "currency": "CNY",
+      "region": "CN",
+      "observedAt": null,
+      "verification": "unverified",
+      "sourceIds": [
+        "legacy-catalog-v8"
+      ]
+    }
+  ],
+  "legacy": {
+    "imageKey": "yonex_shuttlecock_as05_main_01",
+    "popularity": 82,
+    "revision": 2,
+    "createdAt": "2026-08-14T00:00:00Z",
+    "updatedAt": "2026-10-08T00:00:00Z"
+  },
+  "revision": 1
+}

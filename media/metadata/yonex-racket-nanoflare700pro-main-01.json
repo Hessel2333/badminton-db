@@ -1,0 +1,48 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "yonex-racket-nanoflare700pro-main-01",
+  "productIds": [
+    "19a35600-f52e-4add-89dd-e2d0405ff203"
+  ],
+  "kind": "processed-image",
+  "role": "primary",
+  "fileName": "yonex_racket_nanoflare700pro_main_01.png",
+  "legacyImageKeys": [
+    "yonex_racket_nanoflare700pro_main_01"
+  ],
+  "dimensions": {
+    "width": 210,
+    "height": 705
+  },
+  "sha256": "b6c1e3f30a80b655d913290f9ca07effa4a758815dc102689785046693d65ac5",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8",
+      "legacy-image-processing"
+    ],
+    "method": "existing-geometry-and-light-background-mask",
+    "derivedFrom": [
+      {
+        "fileName": "yonex_racket_nanoflare700pro_main_01.webp",
+        "sha256": "746311e2c3294846ae0e0a519c3b65eba87bcdd93542e304c6a0e13787d86323",
+        "kind": "unknown-origin"
+      }
+    ]
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed."
+  ]
+}

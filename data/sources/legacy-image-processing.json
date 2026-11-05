@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "legacy-image-processing",
+  "title": "Earlier equipment-photo processing record",
+  "type": "processing-record",
+  "url": null,
+  "retrievedAt": "2026-11-05",
+  "verification": "unverified",
+  "notes": "Earlier imported photos and geometry-based cutouts. Original publication URLs and permission require review; no image binaries are included.",
+  "snapshotSha256": null
+}

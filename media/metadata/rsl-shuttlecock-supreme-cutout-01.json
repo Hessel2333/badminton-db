@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "rsl-shuttlecock-supreme-cutout-01",
+  "productIds": [
+    "fa5da985-3311-51de-8154-c1d6ddfe1ebc"
+  ],
+  "kind": "processed-image",
+  "role": "primary",
+  "fileName": "rsl_shuttlecock_supreme_cutout_01.png",
+  "legacyImageKeys": [
+    "rsl_shuttlecock_supreme_cutout_01",
+    "rsl_shuttlecock_supreme_main_01"
+  ],
+  "dimensions": {
+    "width": 259,
+    "height": 1504
+  },
+  "sha256": "dff346f49304b58b7b2452ff0e8727cab7dbeb0bd102e99f45b3d56a747b4ac1",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "method": null,
+    "derivedFrom": []
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed."
+  ]
+}

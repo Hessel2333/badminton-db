@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "legacy-catalog-v8",
+  "title": "Existing badminton equipment catalog, snapshot 8",
+  "type": "curated-import",
+  "url": "https://github.com/Hessel2333/badminton_tracker",
+  "retrievedAt": "2026-11-05",
+  "verification": "unverified",
+  "notes": "Imported from a maintained catalog snapshot. This is provenance for the import, not manufacturer verification. Reference-price dates and primary product URLs require review.",
+  "snapshotSha256": "ab3d7b3fae9d4bf9d9c85ee366178a882482cc3dec308036e25f0655daf8e543"
+}

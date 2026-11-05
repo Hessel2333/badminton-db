@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/brand.schema.json",
+  "id": "weiken",
+  "name": "威肯",
+  "aliases": [
+    "WEIKEN"
+  ],
+  "website": null,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  }
+}

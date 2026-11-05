@@ -1,0 +1,41 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "yonex-racket-arcsaber7pro-main-01",
+  "productIds": [
+    "ae60015e-f5cb-54a9-a721-3301d7c5fdce"
+  ],
+  "kind": "processed-image",
+  "role": "primary",
+  "fileName": "yonex_racket_arcsaber7pro_main_01.png",
+  "legacyImageKeys": [
+    "yonex_racket_arcsaber7pro_main_01"
+  ],
+  "dimensions": {
+    "width": 530,
+    "height": 1733
+  },
+  "sha256": "598d9bc6a3be065ed61a5f4aa97ef8ed891dd0f8a3f8ae9e2f11f89b91ee4ea6",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "method": null,
+    "derivedFrom": []
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed."
+  ]
+}

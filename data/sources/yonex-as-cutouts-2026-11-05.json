@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "yonex-as-cutouts-2026-11-05",
+  "title": "YONEX AS-series cutout processing record",
+  "type": "processing-record",
+  "url": null,
+  "retrievedAt": "2026-11-05",
+  "verification": "unverified",
+  "notes": "Image-generation-assisted background extraction from supplied product images. Origin and redistribution permission require review; no image binaries are included.",
+  "snapshotSha256": null
+}

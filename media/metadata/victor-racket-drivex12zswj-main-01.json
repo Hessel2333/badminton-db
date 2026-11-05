@@ -1,0 +1,41 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "victor-racket-drivex12zswj-main-01",
+  "productIds": [
+    "43d46220-f4ff-5d18-9215-f2df0cc4b3d3"
+  ],
+  "kind": "processed-image",
+  "role": "primary",
+  "fileName": "victor_racket_drivex12zswj_main_01.png",
+  "legacyImageKeys": [
+    "victor_racket_drivex12zswj_main_01"
+  ],
+  "dimensions": {
+    "width": 838,
+    "height": 582
+  },
+  "sha256": "d64b50749dcb048a9b46f3ff697bd16d745b44e7d97429dc9af5ecfb67216b05",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "method": null,
+    "derivedFrom": []
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed."
+  ]
+}

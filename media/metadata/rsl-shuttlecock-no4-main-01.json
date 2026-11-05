@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "rsl-shuttlecock-no4-main-01",
+  "productIds": [
+    "51c23162-2dd0-5b73-ac2c-c4a69da699b0"
+  ],
+  "kind": "processed-image",
+  "role": "primary",
+  "fileName": "rsl_shuttlecock_no4_cutout_01.png",
+  "legacyImageKeys": [
+    "rsl_shuttlecock_no4_cutout_01",
+    "rsl_shuttlecock_no4_main_01"
+  ],
+  "dimensions": {
+    "width": 259,
+    "height": 1504
+  },
+  "sha256": "dbdee1e8ac90cb1befa2a58cb3ba28ebfce5bc579adc41285b0ed0eed5345d7a",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "method": null,
+    "derivedFrom": []
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed."
+  ]
+}

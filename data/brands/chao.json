@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/brand.schema.json",
+  "id": "chao",
+  "name": "超牌",
+  "aliases": [
+    "CHAO",
+    "CHAOPAI"
+  ],
+  "website": null,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "$schema": "../../../schemas/product.schema.json",
+  "id": "43d46220-f4ff-5d18-9215-f2df0cc4b3d3",
+  "slug": "victor-drivex12zswj",
+  "brandId": "victor",
+  "category": "racket",
+  "names": {
+    "zh-CN": "驭 12 (ZSW J)",
+    "en": "DriveX 12 (ZSW J)"
+  },
+  "model": "DX-12 ZSW J",
+  "series": null,
+  "aliases": [
+    "驭12 ZSW J",
+    "VICTOR DriveX 12 (ZSW J)"
+  ],
+  "variant": {
+    "label": null,
+    "generation": null,
+    "color": null
+  },
+  "specifications": {
+    "weightClass": null,
+    "gripSize": null,
+    "releaseYear": null
+  },
+  "relations": {
+    "variantOf": null
+  },
+  "mediaIds": [
+    "victor-racket-drivex12zswj-main-01"
+  ],
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  },
+  "curation": {
+    "listed": true,
+    "tags": [
+      "联名",
+      "速度"
+    ]
+  },
+  "priceObservations": [
+    {
+      "kind": "legacy-reference",
+      "amount": 1180,
+      "currency": "CNY",
+      "region": "CN",
+      "observedAt": null,
+      "verification": "unverified",
+      "sourceIds": [
+        "legacy-catalog-v8"
+      ]
+    }
+  ],
+  "legacy": {
+    "imageKey": "victor_racket_drivex12zswj_main_01",
+    "popularity": 80,
+    "revision": 2,
+    "createdAt": "2026-08-14T00:00:00Z",
+    "updatedAt": "2026-08-14T00:00:00Z"
+  },
+  "revision": 1
+}

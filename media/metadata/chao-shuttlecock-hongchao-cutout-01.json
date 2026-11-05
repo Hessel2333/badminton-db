@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "chao-shuttlecock-hongchao-cutout-01",
+  "productIds": [
+    "bb2cd6d2-aa96-5522-92e2-fdbf5c34f2b6"
+  ],
+  "kind": "processed-image",
+  "role": "primary",
+  "fileName": "chao_shuttlecock_hongchao_cutout_01.png",
+  "legacyImageKeys": [
+    "chao_shuttlecock_hongchao_cutout_01",
+    "chao_shuttlecock_hongchao_main_01"
+  ],
+  "dimensions": {
+    "width": 144,
+    "height": 767
+  },
+  "sha256": "6428ae07b4ba32b9b933a5595c6900e240e8f7b561ad39b2e0b258825a21f55d",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "method": null,
+    "derivedFrom": []
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed."
+  ]
+}

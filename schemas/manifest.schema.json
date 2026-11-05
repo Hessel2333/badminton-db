@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hessel2333.github.io/badminton-db/schemas/manifest.schema.json",
+  "title": "BadmintonDB manifest",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schemaVersion": {
+      "const": 1
+    },
+    "dataVersion": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "catalogVersion": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "updated": {
+      "type": "string",
+      "format": "date"
+    },
+    "licenses": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "const": "MIT"
+        },
+        "data": {
+          "const": "CC-BY-4.0"
+        },
+        "media": {
+          "const": "per-asset"
+        }
+      },
+      "required": [
+        "code",
+        "data",
+        "media"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "dataVersion",
+    "catalogVersion",
+    "updated",
+    "licenses"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "yonex-racket-astrox88spro-main-01",
+  "productIds": [
+    "cdbaa05f-5b56-4fed-b97d-38b57710058b"
+  ],
+  "kind": "processed-image",
+  "role": "primary",
+  "fileName": "yonex_racket_astrox88spro_main_01.png",
+  "legacyImageKeys": [
+    "yonex_racket_astrox88spro_main_01"
+  ],
+  "dimensions": {
+    "width": 215,
+    "height": 706
+  },
+  "sha256": "45bfc646039944629bb701cbadfcc0032853708685d6338aaa271ce82dffafb6",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8",
+      "legacy-image-processing"
+    ],
+    "method": "existing-geometry-and-light-background-mask",
+    "derivedFrom": [
+      {
+        "fileName": "yonex_racket_astrox88spro_main_01.webp",
+        "sha256": "7d9668518fe717dabfa124748cf55f0910fbfe675901cdeaffa300257c5701ad",
+        "kind": "unknown-origin"
+      }
+    ]
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed."
+  ]
+}

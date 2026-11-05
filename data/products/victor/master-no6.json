@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/product.schema.json",
+  "id": "75ff093d-26ce-579a-a489-9322cc3b33ec",
+  "slug": "victor-master-no6",
+  "brandId": "victor",
+  "category": "shuttlecock",
+  "names": {
+    "zh-CN": "蓝超 6号",
+    "en": "MASTER NO.6"
+  },
+  "model": "MASTER NO.6",
+  "series": "MASTER",
+  "aliases": [],
+  "variant": {
+    "label": null,
+    "generation": null,
+    "color": null
+  },
+  "specifications": {
+    "weightClass": null,
+    "gripSize": null,
+    "releaseYear": null
+  },
+  "relations": {
+    "variantOf": null
+  },
+  "mediaIds": [
+    "victor-shuttlecock-master-no6-cutout-01"
+  ],
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  },
+  "curation": {
+    "listed": true,
+    "tags": []
+  },
+  "priceObservations": [],
+  "legacy": {
+    "imageKey": "victor_shuttlecock_master_no6_cutout_01",
+    "popularity": 0,
+    "revision": 1,
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z"
+  },
+  "revision": 1
+}

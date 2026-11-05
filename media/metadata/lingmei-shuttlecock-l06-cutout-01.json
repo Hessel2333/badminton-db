@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "lingmei-shuttlecock-l06-cutout-01",
+  "productIds": [
+    "21a57da6-5bd0-55d8-ab42-e34a8f506601"
+  ],
+  "kind": "processed-image",
+  "role": "primary",
+  "fileName": "lingmei_shuttlecock_l06_cutout_01.png",
+  "legacyImageKeys": [
+    "lingmei_shuttlecock_l06_cutout_01",
+    "lingmei_shuttlecock_l06_main_01"
+  ],
+  "dimensions": {
+    "width": 131,
+    "height": 714
+  },
+  "sha256": "d778a95d5c8007ddf8764e35cdc4140d484a386e1cb7b1075ab19b827ca29bb7",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "method": null,
+    "derivedFrom": []
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed."
+  ]
+}

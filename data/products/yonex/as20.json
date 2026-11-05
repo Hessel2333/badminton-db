@@ -1,0 +1,52 @@
+{
+  "$schema": "../../../schemas/product.schema.json",
+  "id": "ebad2317-6117-56ca-b13b-508db2dad21c",
+  "slug": "yonex-as20",
+  "brandId": "yonex",
+  "category": "shuttlecock",
+  "names": {
+    "zh-CN": "YONEX AS-20",
+    "en": "AEROSENSA 20"
+  },
+  "model": "AS-20",
+  "series": "AEROSENSA",
+  "aliases": [],
+  "variant": {
+    "label": null,
+    "generation": null,
+    "color": null
+  },
+  "specifications": {
+    "weightClass": null,
+    "gripSize": null,
+    "releaseYear": null
+  },
+  "relations": {
+    "variantOf": null
+  },
+  "mediaIds": [
+    "yonex-shuttlecock-as20-cutout-01"
+  ],
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  },
+  "curation": {
+    "listed": true,
+    "tags": [
+      "AEROSENSA"
+    ]
+  },
+  "priceObservations": [],
+  "legacy": {
+    "imageKey": "yonex_shuttlecock_as20_cutout_01",
+    "popularity": 70,
+    "revision": 1,
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z"
+  },
+  "revision": 1
+}

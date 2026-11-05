@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/brand.schema.json",
+  "id": "mizuno",
+  "name": "Mizuno",
+  "aliases": [
+    "美津浓",
+    "美津濃"
+  ],
+  "website": null,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  }
+}

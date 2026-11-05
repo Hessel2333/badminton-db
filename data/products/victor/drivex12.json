@@ -1,0 +1,67 @@
+{
+  "$schema": "../../../schemas/product.schema.json",
+  "id": "b086d8fa-c8a1-5bec-ae26-f8fd3e613c9d",
+  "slug": "victor-drivex12",
+  "brandId": "victor",
+  "category": "racket",
+  "names": {
+    "zh-CN": "驭 12",
+    "en": "DriveX 12"
+  },
+  "model": "DX-12",
+  "series": null,
+  "aliases": [
+    "驭12",
+    "VICTOR DriveX 12"
+  ],
+  "variant": {
+    "label": null,
+    "generation": null,
+    "color": null
+  },
+  "specifications": {
+    "weightClass": null,
+    "gripSize": null,
+    "releaseYear": null
+  },
+  "relations": {
+    "variantOf": null
+  },
+  "mediaIds": [
+    "victor-racket-drivex12-main-01"
+  ],
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "verification": "unverified",
+    "fieldSources": {}
+  },
+  "curation": {
+    "listed": true,
+    "tags": [
+      "均衡"
+    ]
+  },
+  "priceObservations": [
+    {
+      "kind": "legacy-reference",
+      "amount": 1080,
+      "currency": "CNY",
+      "region": "CN",
+      "observedAt": null,
+      "verification": "unverified",
+      "sourceIds": [
+        "legacy-catalog-v8"
+      ]
+    }
+  ],
+  "legacy": {
+    "imageKey": "victor_racket_drivex12_main_01",
+    "popularity": 78,
+    "revision": 2,
+    "createdAt": "2026-08-14T00:00:00Z",
+    "updatedAt": "2026-08-14T00:00:00Z"
+  },
+  "revision": 1
+}

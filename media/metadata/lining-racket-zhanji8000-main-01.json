@@ -1,0 +1,41 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "lining-racket-zhanji8000-main-01",
+  "productIds": [
+    "2bbec2ad-7263-56da-9777-81150292bca4"
+  ],
+  "kind": "processed-image",
+  "role": "primary",
+  "fileName": "lining_racket_zhanji8000_main_01.png",
+  "legacyImageKeys": [
+    "lining_racket_zhanji8000_main_01"
+  ],
+  "dimensions": {
+    "width": 1246,
+    "height": 1239
+  },
+  "sha256": "864b442a707ee18f7bc9990597fb557707089f4c7aff4b407a57d0e1d89f7245",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "method": null,
+    "derivedFrom": []
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed."
+  ]
+}

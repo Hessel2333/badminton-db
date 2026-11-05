@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/asset.schema.json",
+  "id": "chao-shuttlecock-lanchao-cutout-01",
+  "productIds": [
+    "4ef1a071-f3ce-5ce5-a2a8-3428b5ad2672"
+  ],
+  "kind": "processed-image",
+  "role": "primary",
+  "fileName": "chao_shuttlecock_lanchao_cutout_01.png",
+  "legacyImageKeys": [
+    "chao_shuttlecock_lanchao_cutout_01",
+    "chao_shuttlecock_lanchao_main_01"
+  ],
+  "dimensions": {
+    "width": 169,
+    "height": 926
+  },
+  "sha256": "70cf42934012f27e1310c9395f1267761f1043c1ce436d2c9a4afc496f806164",
+  "hasAlpha": true,
+  "isOfficial": false,
+  "provenance": {
+    "sourceIds": [
+      "legacy-catalog-v8"
+    ],
+    "method": null,
+    "derivedFrom": []
+  },
+  "rights": {
+    "status": "unreviewed",
+    "license": null,
+    "holder": null,
+    "evidenceUrl": null
+  },
+  "distribution": {
+    "status": "withheld",
+    "file": null
+  },
+  "syntheticIdentifiers": [],
+  "notes": [
+    "Redistribution permission has not been established; image binary is not distributed."
+  ]
+}
