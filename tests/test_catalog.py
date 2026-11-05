@@ -31,11 +31,12 @@ class CatalogTests(unittest.TestCase):
         fn(record)
         catalog.write(file, record)
 
-    def test_baseline_retains_every_migrated_uuid_and_marks_review_status(self):
+    def test_baseline_retains_migrated_uuids_as_catalog_grows(self):
         data = catalog.validate()
         migration = catalog.read(ROOT / "docs/migration.json")
-        self.assertEqual(sorted(p["id"] for p in data["products"]), migration["preservedProductIds"])
-        self.assertEqual(data["stats"], {"brands": 10, "products": 73, "mediaMetadata": 69, "publicImages": 0, "verifiedProducts": 0})
+        self.assertTrue(set(migration["preservedProductIds"]) <= {p["id"] for p in data["products"]})
+        self.assertGreaterEqual(data["stats"]["products"], migration["products"])
+        self.assertGreaterEqual(data["stats"]["brands"], migration["brands"])
 
     def test_duplicate_json_keys_and_non_finite_values_are_rejected(self):
         root = self.fixture()
@@ -56,7 +57,7 @@ class CatalogTests(unittest.TestCase):
 
     def test_scoped_alias_conflicts_rejected(self):
         root = self.fixture()
-        first, second = list((root / "data/products/victor").glob("*.json"))[:2]
+        first, second = [p for p in sorted((root / "data/products/victor").glob("*.json")) if catalog.read(p)["category"] == "shuttlecock"][:2]
         name = catalog.read(first)["names"]["zh-CN"]
         self.change(second, lambda record: record["aliases"].append(name))
         with self.assertRaisesRegex(catalog.CatalogError, "conflicting scoped"):
@@ -85,6 +86,7 @@ class CatalogTests(unittest.TestCase):
     def test_public_image_requires_permission_and_safe_path(self):
         root = self.fixture()
         file = next((root / "media/metadata").glob("*.json"))
+        self.change(file, lambda record: record["rights"].update(status="unreviewed"))
         self.change(file, lambda record: record["distribution"].update(status="public", file="media/files/example.png"))
         with self.assertRaisesRegex(catalog.CatalogError, "approved rights"):
             catalog.validate(root)
@@ -94,15 +96,19 @@ class CatalogTests(unittest.TestCase):
 
     def test_approved_licensed_asset_is_included_and_hash_checked(self):
         root = self.fixture()
-        file = next((root / "media/metadata").glob("*.json"))
+        asset = catalog.read(next((root / "media/metadata").glob("*.json")))
+        asset.update(id="test-owned-image", kind="illustration", fileName="test-owned-image.svg", legacyImageKeys=["test-owned-image"], syntheticIdentifiers=[], dimensions={"width":8,"height":8}, hasAlpha=False)
         body = b'<svg xmlns="http://www.w3.org/2000/svg" width="8" height="8"><rect width="8" height="8"/></svg>'
         image = root / "media/files/test-owned-image.svg"
         image.write_bytes(body)
-        def approve(record):
-            record["rights"] = {"status": "approved", "license": "CC0-1.0", "holder": "Test contributor", "evidenceUrl": "https://example.com/permission"}
-            record["distribution"] = {"status": "public", "file": "media/files/test-owned-image.svg"}
-            record["sha256"] = hashlib.sha256(body).hexdigest()
-        self.change(file, approve)
+        asset["rights"] = {"status": "approved", "license": "CC0-1.0", "holder": "Test contributor", "evidenceUrl": "https://example.com/permission"}
+        asset["distribution"] = {"status": "public", "file": "media/files/test-owned-image.svg"}
+        asset["sha256"] = hashlib.sha256(body).hexdigest()
+        catalog.write(root / "media/metadata/test-owned-image.json", asset)
+        for file in (root / "data/products").glob("*/*.json"):
+            if catalog.read(file)["id"] in asset["productIds"]:
+                self.change(file, lambda record: record["mediaIds"].append("test-owned-image"))
+        self.change(root / "media/manifest.json", lambda record: record["metadataIds"].append("test-owned-image"))
         output = root / "dist"
         catalog.build(output, root)
         self.assertEqual((output / "media/files/test-owned-image.svg").read_bytes(), body)
@@ -131,20 +137,23 @@ class CatalogTests(unittest.TestCase):
             for file in (first / "v1" / folder).glob("*.json"):
                 if file.name != "index.json":
                     validator.validate(catalog.read(file))
-        self.assertTrue(all(a["downloadUrl"] is None for a in catalog.read(first / "v1/media/index.json")["metadata"]))
-        self.assertFalse(list(first.rglob("*.png")))
+        for asset in catalog.read(first / "v1/media/index.json")["metadata"]:
+            if asset["distribution"]["status"] == "withheld":
+                self.assertIsNone(asset["downloadUrl"])
+            else:
+                self.assertTrue((first / asset["distribution"]["file"]).is_file())
 
     def test_ios_export_preserves_keys_prices_and_ids_without_personal_data(self):
         data = catalog.validate()
         seed = catalog.ios_seed(data)
         products = {p["id"]: p for p in data["products"]}
-        self.assertEqual(seed["version"], 8)
-        self.assertEqual(len(seed["equipment"]), 73)
+        self.assertEqual(seed["version"], data["manifest"]["catalogVersion"])
+        self.assertEqual(len(seed["equipment"]), len(data["products"]))
         for entry in seed["equipment"]:
             p = products[entry["id"]]
             self.assertEqual(entry["imageKey"], p["legacy"]["imageKey"])
-            if p["brandId"] == "victor" and p["category"] == "shuttlecock":
-                self.assertIsNone(entry["suggestedUnitPriceCny"])
+            expected_price = next((o["amount"] for o in p["priceObservations"] if o["kind"] == "legacy-reference" and o["currency"] == "CNY"), None)
+            self.assertEqual(entry["suggestedUnitPriceCny"], expected_price)
         self.assertNotIn("personalNotes", json.dumps(seed))
 
     def test_build_cannot_overwrite_source_or_unrelated_folder(self):
@@ -159,10 +168,22 @@ class CatalogTests(unittest.TestCase):
 
     def test_fixed_render_barcode_never_becomes_product_identifier(self):
         data = catalog.validate()
-        rendered = [a for a in data["assets"] if a["kind"] == "generated-render"]
-        self.assertEqual(len(rendered), 15)
-        self.assertTrue(all(a["syntheticIdentifiers"][0]["purpose"] == "illustrative-only" for a in rendered))
+        rendered = [a for a in data["assets"] if "victor-cylinder-v3" in a["provenance"]["sourceIds"]]
+        self.assertGreaterEqual(len(rendered), 15)
+        self.assertTrue(all(any(i["value"] == "1234567890128" and i["purpose"] == "illustrative-only" for i in a["syntheticIdentifiers"]) for a in rendered))
         self.assertTrue(all("gtin" not in p for p in data["products"]))
+
+    def test_new_models_can_be_added_without_rewriting_historical_migration(self):
+        root = self.fixture()
+        first = catalog.read(self.product_file(root))
+        first.update(id="b3d083b5-09d7-4379-84a1-d2c1223593ef", slug=first["brandId"] + "-test-new-model", model="TEST-NEW-MODEL", aliases=[], mediaIds=[])
+        first["names"] = {"zh-CN": "新增测试型号", "en": None}
+        first["legacy"]["imageKey"] = None
+        catalog.write(root / "data/products" / first["brandId"] / "test-new-model.json", first)
+        data = catalog.validate(root)
+        migration = catalog.read(ROOT / "docs/migration.json")
+        self.assertEqual(len(data["products"]), len(catalog.validate()["products"]) + 1)
+        self.assertTrue(set(migration["preservedProductIds"]) <= {p["id"] for p in data["products"]})
 
 
 if __name__ == "__main__":
